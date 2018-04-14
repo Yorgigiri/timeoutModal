@@ -1,38 +1,3 @@
-# timeoutModal
-jQuery модальное окно по таймауту
-
-# Зависимости
-1. <a href="https://jquery.com/download/" target="_blank">Библиотека jQuery</a>
-2. <a href="https://plugins.jquery.com/cookie/" target="_blank"></a>
-
-# Вызов функции
-1. (#timeoutPopup) - айдишник попапа.
-2. (10) - секунды, задаём нужное кол-во.
-
-```javascript
-$(document).ready(function () {
- 
-    var openTimeoutPopup = new TimeoutPopup('#timeoutPopup', 10);
-    openTimeoutPopup.init();
-
-});
-```
-
-# HTML разметка попапа
-1. (#timeoutPopup) - айдишник попапа.
-2. (timeoutPopup__close) - кнопка закрытия попапа.
-3. (timeoutPopup__content) - сюда помещаем наш контент.
-```html
-<div class="timeoutPopup timeoutPopup_hidden" id="timeoutPopup"> 
-    <div class="timeoutPopup__wrapper"> 
-        <div class="timeoutPopup__close"></div> 
-        <div class="timeoutPopup__content"></div> 
-    </div> 
-</div>
-```
-
-# СSS стили попапа
-```css
 .timeoutPopup {
     position: fixed;
     width: 100%;
@@ -92,6 +57,3 @@ $(document).ready(function () {
     height: 42px;
     background: url(../img/timeoutPopup__close.png) no-repeat
 }
-```
-
-
