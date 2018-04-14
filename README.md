@@ -3,7 +3,7 @@ jQuery модальное окно по таймауту
 
 # Зависимости
 1. <a href="https://jquery.com/download/" target="_blank">Библиотека jQuery</a>
-2. <a href="https://plugins.jquery.com/cookie/" target="_blank"></a>
+2. <a href="https://plugins.jquery.com/cookie/" target="_blank">Плагин jQuery Cookie</a>
 
 # Вызов функции
 1. (#timeoutPopup) - айдишник попапа.
